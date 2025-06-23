@@ -1,0 +1,29 @@
+.mainPage {
+    /* margin: 50px auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainPage > ul {
+    list-style: none;
+}
+
+.tasksLink {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #D2691E;
+
+    &:visited {
+        color: #D2691E;
+    }
+    &:active {
+        color: #D2691E;
+    }
+    &:hover {
+        color: #995423;
+        text-decoration: underline;
+    }
+}
