@@ -7,6 +7,7 @@ function MainPage() {
             <ul>
                 <li><Link to="/ClickCounter" className='tasksLink'>Click counter</Link></li>
                 <li><Link to="/CountDownTimer" className='tasksLink'>Count down timer</Link></li>
+                <li><Link to="/LoginForm" className='tasksLink'>Login form</Link></li>
             </ul>
         </div>
     )

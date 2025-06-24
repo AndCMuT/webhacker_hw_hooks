@@ -26,7 +26,23 @@ header {
     text-align: center;
     line-height: 50px;
 }
+.toMainLink {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #0d9418;
 
+    &:visited {
+        color: #c1fcc6;
+    }
+    &:active {
+        color: #0d9418;
+    }
+    &:hover {
+        color: #0d9418;
+        text-decoration: underline;
+    }
+}
 footer {
     max-width: 100%;
     height: 50px;
