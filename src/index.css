@@ -30,16 +30,16 @@ header {
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 600;
-    color: #0d9418;
+    color: #c1fcc6;
 
     &:visited {
         color: #c1fcc6;
     }
     &:active {
-        color: #0d9418;
+        color: #c1fcc6;
     }
     &:hover {
-        color: #0d9418;
+        color: #4ffc5e;
         text-decoration: underline;
     }
 }

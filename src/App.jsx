@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import ClickCounter from './components/ClickCounter';
 import CountDownTimer from './components/CountDownTimer';
 import LoginForm from './components/LoginForm';
+import UserProfile from './components/UserProfile';
 
 function App() {
 
@@ -17,9 +18,10 @@ function App() {
       <div className="routes">
         <Routes>
           <Route path='/' element={<MainPage />} />
-          <Route path='/ClickCounter' element={<ClickCounter />} />
+          <Route path='ClickCounter' element={<ClickCounter />} />
           <Route path='CountDownTimer' element={<CountDownTimer />} />
           <Route path='LoginForm' element={<LoginForm />} />
+          <Route path='UserProfile' element={ <UserProfile /> } />
         </Routes>
       </div>
       
